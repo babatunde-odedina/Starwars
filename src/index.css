@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: 'Quicksand';
+  color: #333;
+  font-weight: 600;
+  background-color: #ffe6e6;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* navbar styles */
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: white;
+  background-color: #f1356d;
+  border-radius: 8px;
+}
+
+/* info previews / list */
+.info-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.info_container {
+  display: flex;
+}
+.details_info {
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+.info-preview:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.info-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.info-preview a {
+  text-decoration: none;
+}
+
+/* people details page */
+.people-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.people-details div {
+  margin: 20px 0;
+}
+.people-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
